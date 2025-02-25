@@ -1,4 +1,4 @@
-# JWT-API-template
+# JWTemplateTest
 
 Template for authenticating users with JWT as a REST API call
 npm init -y
