@@ -39,5 +39,8 @@ const login = async (req, res) => {
   }
   return res.status(401).json({ message: "Auth Failed" })
 };
+const info = (req, res) => {
+  res.json(req.user)
+}
 
-module.exports = { createUser, login }
+module.exports = { createUser, login, info }
